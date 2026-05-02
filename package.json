@@ -1,0 +1,11 @@
+{
+  "name": "campus-notifications-microservice",
+  "version": "1.0.0",
+  "scripts": {
+    "stage1": "cd stage1 && npx ts-node priority_inbox.ts",
+    "stage2:dev": "cd stage2 && npm run dev",
+    "stage2:build": "cd stage2 && npm run build",
+    "stage2:start": "cd stage2 && npm run start",
+    "install:all": "cd stage1 && npm install; cd ../stage2 && npm install"
+  }
+}
